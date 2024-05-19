@@ -1,0 +1,63 @@
+/* Card.css */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Custom Background Gradients */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, #667db6 0%, #0082c8 50%, #0082c8 75%, #667db6 100%);
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+}
+
+.bg-gradient-danger {
+  background: linear-gradient(135deg, #e53935 0%, #e35d5b 100%);
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+}
+
+.bg-gradient-info {
+  background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+}
+
+.bg-gradient-light {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
