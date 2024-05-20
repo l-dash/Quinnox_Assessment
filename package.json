@@ -9,6 +9,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.0",
+    "react-spinners": "^0.13.8",
     "unsplash-js": "7.0.19"
   },
   "devDependencies": {
